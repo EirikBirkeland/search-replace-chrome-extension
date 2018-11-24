@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
         a.push(n);
     }
     return a;
-}
+  }
 
   textNodesUnder(document).map(x => {
     if(!x.childNodes.length && x.textContent.match(/Erna/)){
