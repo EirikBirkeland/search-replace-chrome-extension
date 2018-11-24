@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
 
   textNodesUnder(document).map(x => {
     if(!x.childNodes.length && x.textContent.match(/Erna/)){
-      x.textContent = "Feit purkehore"
+      x.textContent = "Fjerna"
     }
   });
 });
