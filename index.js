@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
     let n;
     const a = [];
     const walk = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
-    whil e(n = walk.nextNode()) {
+    while (n = walk.nextNode()) {
         a.push(n);
     }
     return a;
